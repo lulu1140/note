@@ -11,7 +11,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     //1st video
 
-    const video = await loadVideo("https://cdn.glitch.global/cbd27f38-f96a-4cdb-813d-cdb87a43f01f/video2.dr?v=1692458728653");
+    const video = await loadVideo("./video2.dr");
     const texture = new THREE.VideoTexture(video);
 
     const geometry = new THREE.PlaneGeometry(1, 204/480);
@@ -36,7 +36,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
   
     // Second Video
-    const video2 = await loadVideo("https://cdn.glitch.global/cbd27f38-f96a-4cdb-813d-cdb87a43f01f/video2.dr?v=1692458728653"); // Replace 'second-video.mp4' with the path to your second video
+    const video2 = await loadVideo("./video2.dr"); // Replace 'second-video.mp4' with the path to your second video
     const texture2 = new THREE.VideoTexture(video2);
 
     const geometry2 = new THREE.PlaneGeometry(1, 204/480);
