@@ -11,7 +11,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     //1st video
 
-    const video = await loadVideo("./VIDEO2.dr");
+    const video = await loadVideo("./video2.dr");
     const texture = new THREE.VideoTexture(video);
 
     const geometry = new THREE.PlaneGeometry(1, 204/480);
